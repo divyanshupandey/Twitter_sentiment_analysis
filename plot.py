@@ -42,8 +42,8 @@ def pie_plot(i):
     if(predict_data != ""):
         for val in predict_data.split("\n"):
             if val != "":
-                xs.append(val.split(",")[0])
-                ys.append(val.split(",")[1])
+                xs.append(int(val.split(",")[0]))
+                ys.append(int(val.split(",")[1]))
         
     #plotting both the graphs
     ax1.clear()
