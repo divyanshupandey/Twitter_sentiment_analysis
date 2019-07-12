@@ -12,10 +12,10 @@ import time
 from tweet_analysis import prediction
 
 #input credentials here
-consumer_key = 'cfPrhuoYAlEhfHRZa6JKOA2Cr'
-consumer_secret = 'FGYwIZkXdB2JAJFhGbUMqCRR2AKpjpgKMwEcYOu5iJXA9LP3CP'
-access_token = '2618372809-OBjHmRVnDfqx0zEiucK9aqDnDIrMJxXyfkl9nNm'
-access_token_secret = '0l3iXV97vqNV3KBPlPg8phipoIIEm7NUZqojV7l4SCGfV'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
